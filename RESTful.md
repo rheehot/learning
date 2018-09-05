@@ -18,9 +18,9 @@
   
 ### REST API 중심 규칙
   - HTTP Method의 표현방식(행위 GET, PUT, POST, DELETE)이 URL에 들어가선 안된다.
-  '''
+  ```
   URL >>> GET / github/insert/repogit   (X)
   URL >>> GET / github/repogit          (O)
-  '''
+  ```
   
   
