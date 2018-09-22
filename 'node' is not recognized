@@ -1,0 +1,9 @@
+# app.js 실행시키는 데 오류 발생
+
+> 오류 내용
+```'node' is not recognized as an internal or an external command, operable program or batch file ```
+
+> 해결방법.
+
+환경설정에서 path 설정으로 **nodejs**의 파일 경로를 추가해 줘야한다.
+
