@@ -1,3 +1,20 @@
+ > git branch 삭제
+ > git push할 원격저장소 변경
+ ``` $ git remote -v
+     $ git remote set-url origin 변경할 주소
+ ```
+ > Git - fatal: Unable to create '/path/my_project/.git/index.lock': File exists 오류 발생 해결법.
+ ``` $rm -f ./.git/index.lock```
+ 
+ > push할 때 로컬과 원격 저장소를 연결한다.
+ ``` $ git remote add origin 원격저장소 주소```
+ 
+ > git 저장소 상태 확인
+ ``` $ git status ```
+ 
+ 
+ 
+ 
  - 처음 repogitory를 만들면 master브랜치가 있다.
  
  ``` checkout```명령어를 실행해서 다른 별도의 브랜치를 두고 작업할 수 있다.
