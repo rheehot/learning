@@ -1,4 +1,7 @@
  > git branch 삭제
+ ```
+ $ git branch -d 브런치이름
+ ```
  > git push할 원격저장소 변경
  ``` $ git remote -v
      $ git remote set-url origin 변경할 주소
