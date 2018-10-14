@@ -4,12 +4,15 @@
      $ git remote set-url origin 변경할 주소
  ```
  > Git - fatal: Unable to create '/path/my_project/.git/index.lock': File exists 오류 발생 해결법.
+ 
  ``` $rm -f ./.git/index.lock```
  
  > push할 때 로컬과 원격 저장소를 연결한다.
+ 
  ``` $ git remote add origin 원격저장소 주소```
  
  > git 저장소 상태 확인
+ 
  ``` $ git status ```
  
  
