@@ -26,3 +26,7 @@
 > local repository를 remote repository에 업로드<br>
 
 ``` $ git push ```
+
+>**clone** - 원격저장소에 있는 repository를 lacal 개인 pc로 가져오기 
+
+```$ git clone <remote repository 주소> ```
