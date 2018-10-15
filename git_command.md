@@ -19,8 +19,8 @@
 
 ``` $ git init ```
 
-> add한 파일을 local repository에 저장
-<br>
+> add한 파일을 local repository에 저장<br>
+
 ``` $ git commit```
 
 > local repository를 remote repository에 업로드<br>
