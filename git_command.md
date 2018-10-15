@@ -11,14 +11,18 @@
 ```
 
 > 디렉토리 삭제<br>
+
 ``` $ rmdir 디렉토리명
 ```
 
 > 새로운 local repository 생성<br>
+
 ``` $ git init ```
 
-> add한 파일을 local repository에 저장<br>
+> add한 파일을 local repository에 저장
+<br>
 ``` $ git commit```
 
 > local repository를 remote repository에 업로드<br>
+
 ``` $ git push ```
