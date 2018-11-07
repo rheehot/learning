@@ -8,7 +8,9 @@ JSTL라이브러리가 필요하므로 **jar 파일**로 별도로 다운받아�
 
 라이브러리 추가하기
 
-파일에 W
+파일에 
+
+https://user-images.githubusercontent.com/42515875/48136895-2a021300-e2e4-11e8-8744-94afb4575d8d.png
 
 ```
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %@>
