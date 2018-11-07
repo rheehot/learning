@@ -22,23 +22,35 @@ JSTL(JavaServerPages Standard Tag Library)
 
 ### JSTL 태그
 #### 1. <c:forEach>
-    자바에서 for문 기능
-    ```<c:forEach var ="i" begin="1` end="10" step="1"> ${} </c:forEach>```
+ 자바에서 for문 기능
+    ```<c:forEach var ="i" begin="1 end="10" step="1"> ${} </c:forEach>```
 
 #### 2. <c:set>
-    ```<c:set var ="it" value ="${requestScope.넘겨받는 변수 이름}"/>  ```
-    it이란 변수에 ${requestScope.변수이름} 값을 저장한다.
+    
+    
+ 
+ <c:set var ="it" value ="${requestScope.넘겨받는 변수 이름}"/> 
+ 
+  
+  it이란 변수에 ${requestScope.변수이름} 값을 저장한다.
 
 #### 3. <c:if>
-    ``` <c:if test ="${it != 'true'}">HTML태그 내용</c:if> ```
+    
+    <c:if test ="${it != 'true'}">HTML태그 내용</c:if>
+    
 
-    it이란 변수가 true이면 HTML태그 내용 실행하게 된다.
+   it이란 변수가 true이면 HTML태그 내용 실행하게 된다.
 
-    ``` <c:if test="${it eq 'true'}></c:if>" ```
+    
+    <c:if test="${it eq 'true'}"></c:if>
+    
 
-    'eq'를 '='대신 사용할 수 있다.
+   'eq'를 '='대신 사용할 수 있다.
 
-    ```<c:if test="${not empty sessionScope.name }"><h1>★${name}★</h1></c:if>```
-    'not empty' or 'empty' 세션을 유무파악
+    
+    <c:if test="${not empty sessionScope.name }"><h1>★${name}★</h1></c:if>
+    
+    
+   'not empty' or 'empty' 세션을 유무파악
 
 
